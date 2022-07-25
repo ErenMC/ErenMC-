@@ -452,7 +452,7 @@ p {
   position: fixed;
   left: 0;
   bottom: 0;
-  width: 100%;
+  width: 99999%;
 }
 
 .credits img {
