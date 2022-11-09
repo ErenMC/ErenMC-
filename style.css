@@ -25,7 +25,7 @@ animation: AnimationName 30s ease infinite;
     padding-top: 60px;
   }
   .active {
-    border-bottom: 2px solid #1161ed;
+    border-bottom: 2px solid #ed118a;
   }
   h2 {
     padding-left: 12px;
