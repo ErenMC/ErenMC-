@@ -1,3 +1,13 @@
+.css-selector {   background: linear-gradient(130deg, #ff00df, #6000ff, #ff002b);  background-size: 600% 600%;  -webkit-animation: AnimationName 30s ease infinite;
+  -moz-animation: AnimationName 30s ease infinite;
+  -o-animation: AnimationName 30s ease infinite;
+  animation: AnimationName 30s ease infinite; }
+ @-webkit-keyframes AnimationName {  0%{background-position:0% 10%}  50%{background-position:100% 91%}  100%{background-position:0% 10%} }
+ @-moz-keyframes AnimationName {  0%{background-position:0% 10%}  50%{background-position:100% 91%}  100%{background-position:0% 10%} }
+ @-o-keyframes AnimationName {  0%{background-position:0% 10%}  50%{background-position:100% 91%}  100%{background-position:0% 10%} }
+ @keyframes AnimationName {   0%{background-position:0% 10%}  50%{background-position:100% 91%}  100%{background-position:0% 10%} }
+
+
 .login {
   position: relative;
   height: 560px;
