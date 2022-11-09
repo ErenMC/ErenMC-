@@ -1,17 +1,30 @@
-..css-selector {
-background: linear-gradient(130deg, #ff00df, #6000ff, #ff002b);
-background-size: 600% 600%;
-
-animation: AnimationName 30s ease infinite;
+body {
+  margin: 0;
+  padding: 0;
 }
 
-@keyframes AnimationName {
-0%{background-position:0% 10%}
-50%{background-position:100% 91%}
-100%{background-position:0% 10%}
+.gradient {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(149deg, rgba(24,187,156,1) 0%, rgba(106,57,175,1) 42%, rgba(187,24,148,1) 72%, rgba(115,53,134,1) 100%);
+    animation: gradient 10s infinite linear;
+    background-size: 400%;
 }
 
-#основа
+@keyframes gradient {
+    0% {
+        background-position: 80% 0%;
+    }
+    50% {
+        background-position: 20% 100%;
+    }
+    100% {
+        background-position: 80% 0%;
+    }
+}
+
+
+
 .preloader-1 svg {
     overflow: visible;
     width: 100px;
