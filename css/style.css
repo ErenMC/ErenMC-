@@ -1,3 +1,17 @@
+..css-selector {
+background: linear-gradient(130deg, #ff00df, #6000ff, #ff002b);
+background-size: 600% 600%;
+
+animation: AnimationName 30s ease infinite;
+}
+
+@keyframes AnimationName {
+0%{background-position:0% 10%}
+50%{background-position:100% 91%}
+100%{background-position:0% 10%}
+}
+
+#основа
 .preloader-1 svg {
     overflow: visible;
     width: 100px;
