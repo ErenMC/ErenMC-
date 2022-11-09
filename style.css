@@ -83,15 +83,3 @@
     text-decoration: none;
     color: rgba(255, 255, 255, 0.2);
   }
-..css-selector {
-background: linear-gradient(130deg, #ff00df, #6000ff, #ff002b);
-background-size: 600% 600%;
-
-animation: AnimationName 30s ease infinite;
-}
-
-@keyframes AnimationName {
-0%{background-position:0% 10%}
-50%{background-position:100% 91%}
-100%{background-position:0% 10%}
-}
