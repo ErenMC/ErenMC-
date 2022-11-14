@@ -4,11 +4,11 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50vh;
+  height: 100vh;
 }
 div{
   position: relative;
-  width: 100px;
+  width: 590px;
   height: 50px;
   background-color: #34495e;
   border-radius: 8px;
@@ -36,22 +36,22 @@ a{
   border-radius: 8px;
 }
 a:nth-child(1){
-  width: 50px;
+  width: 100px;
 }
 a:nth-child(2){
-  width: 50px;
+  width: 110px;
 }
 a:nth-child(3){
-  width: 50px;
+  width: 100px;
 }
 a:nth-child(4){
-  width: 50px;
+  width: 160px;
 }
 a:nth-child(5){
-  width: 50px;
+  width: 120px;
 }
 .start-home, a:nth-child(1):hover~.animation{
-  width: 110px;
+  width: 100px;
   left: 0;
   background-color: #1abc9c;
 }
