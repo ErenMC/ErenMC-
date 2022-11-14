@@ -22,12 +22,10 @@ body {
         background-position: 80% 0%;
     }
 }
-
-
 div{
   position: relative;
   width: 1000px;
-  height: 50px;
+  height: 1000px;
   background-color: #007af3;
   border-radius: 8px;
   font-size: 0;
