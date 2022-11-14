@@ -12,15 +12,6 @@ body {
 }
 
 
-
-body{
-  font-family: sans-serif;
-  background: #2c3e5000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
 div{
   position: relative;
   width: 590px;
