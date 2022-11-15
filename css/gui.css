@@ -24,9 +24,9 @@ body {
 }
 div{
   position: relative;
-  width: 2000px;
+  width: 590px;
   height: 1000px;
-  background-color: #007af3;
+  background-color: #34495e;
   border-radius: 8px;
   font-size: 0;
 }
